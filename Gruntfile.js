@@ -72,13 +72,6 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-      less: {
-        files: [
-          'assets/less/*.less',
-          'assets/less/bootstrap/*.less'
-        ],
-        tasks: ['recess']
-      },
       js: {
         files: [
           '<%= jshint.all %>'
